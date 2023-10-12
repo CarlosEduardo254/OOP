@@ -1,0 +1,7 @@
+- Polimorfismo é a capacidade de um objeto poder ser instanciado de formas diferentes. Podemos perceber tal mecanismo na classe ControleBonificacao, onde o registro da bonificação é feito com um Colaborador c, caso esse colaborador seja apenas um colaborador qualquer a bonificação somada ao acumulador seria de 15% do seu salário, mas caso fosse um gerente a bonificação subiria para 20%. 
+
+- Herança em POO é quando uma classe herda atributos e métodos de outra classe, utilizando o comando extends para mostrar a relação de herança entre as duas classes. Nessa classe é visto a utilização de herança na classe Gerente, onde ele herda todos os métodos e atributos de Colaborador, assim Colaborador é uma superclasse de Gerente, e Gerente é uma subclasse de Colaborador. 
+
+- A sobrescrita nada mais é que a reescrita de métodos importados da superclasse. Pode ser percebido na alteração da porcentagem da bonificação do Gerente, 20%, em comparação com o Colaborador, 15%. 
+
+- O Encapsulamento em Java ocorre através da restrição ao acesso por meio dos modificadores de acesso. Ocorrendo nas classes com a utilização das palavras reservadas: public e private.  

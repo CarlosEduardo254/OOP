@@ -1,0 +1,46 @@
+- O programa busca passar cada letra de uma certa String para a tabela ASCII. Explicação passo a passo abaixo: 
+
+
+/// Inicializa uma string str1 com valor abc e str2 como uma string vazia 
+
+String str1 = "abc", str2 = ""; 
+
+  
+
+/// Transforma a String em um vetor de caracteres (char), pode ser representada como: ["a", "b", "c"] 
+
+char[] letters = str1.toCharArray(); 
+
+  
+
+/// Criar uma variável booleana isFirst com valor verdadeiro 
+
+boolean isFirst = true; 
+
+  
+
+/// Um for aprimorado que busca passar por todos os valores do vetor de caracteres, e atribuir cada um como letter 
+
+for(char letter : letters){ 
+
+  
+
+/// Se isFirst for verdadeiro ele adiciona a String str2 um número que corresponde a letra segundo a tabela ASCII, se for falso adiciona um ponto seguido do valor inteiro do caractere 
+
+     	str2 += isFirst ? ((int) letter) : "." + ((int) letter); 
+
+      
+
+/// isFirts é definido como falso para adicionar um ponto antes dos próximos valores 
+
+	isFirst = false; 
+
+} 
+
+System.out.println(str2); 
+
+  
+
+
+
+ 
